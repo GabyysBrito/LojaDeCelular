@@ -1,0 +1,117 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(247, 242, 242);
+
+}
+
+.secao {
+    border: solid black 1px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 74vh;
+    border-radius: 20px;
+}
+
+.imagem {
+    width: 50%;
+}
+
+.nomeCelular {
+    height: 10vh;
+    
+    p {
+        font-weight: 800;
+        font-size: 15px;
+        color: rgb(105, 104, 104);
+    }
+}
+
+.descricao {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+
+}
+
+.valorAntigo {
+    display: flex;
+    width: 60%;
+
+    .valorRiscado {
+        text-decoration: line-through;
+        color: rgb(163, 162, 162);
+        font-size: 15px;
+        width: 85px;
+    }
+
+    .valorBaixado {
+        background-color: green;
+        color: white;
+        width: 45%;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+.valorAVista {
+    font-size: 15px;
+    color: rgb(105, 104, 104);
+    font-weight: 600;
+}
+
+.valorPix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgb(32, 83, 185);
+
+    .valorAzul {
+        font-size: 22px;
+        font-weight: 800;
+    }
+}
+
+.botao {
+    border: none;
+    background-color: rgb(49, 223, 49);
+    width: 28%;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 780px) {
+    .main {
+        flex-direction: column;
+        height: 105rem;
+    }
+
+    .secao {
+        width: 80%;
+        height: 60vh;
+    }
+    
+    .nomeCelular {
+        height: 5vh;
+    }
+
+}
+
+
