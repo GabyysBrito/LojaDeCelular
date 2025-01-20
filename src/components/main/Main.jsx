@@ -25,7 +25,7 @@ export default function Main() {
         },
         {
             imagem: 'https://imgs.casasbahia.com.br/55066421/1g.jpg',
-            nomeCelular: 'Smartphone Samsung Galaxy S24 5G',
+            nomeCelular: 'Smartphone Motorola Edge 50 Fusion',
             valorAntigo: 2968.90,
             porcentagemDiminuiu: 29,
             valorAVista: 2110.00,
