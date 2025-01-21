@@ -1,7 +1,6 @@
 import Header from './components/header/Header'
 import Main from './components/main/Main'
-
-import './globalStyle.module.scss'
+import './globalStyle/globalStyle.module.scss'
 
 export default function App() {
   return(
